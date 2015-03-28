@@ -33,4 +33,5 @@ Filco keyboard
 - some keys are underused. You might want to assign them frequent keys
   that require some combination (e.g. accented letters)
 
-  AE10: just maps to 0 and ~A
+  AE10: just maps to 0 and ~
+  The same for AE11-13
