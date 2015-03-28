@@ -9,6 +9,8 @@ Filco keyboard
 
   no way
 
+- save original layouts from /usr/share/X11/xkb/symbols/
+
 - get the map for the key numbers in the filco's layout
 
 - add the following keys
@@ -23,4 +25,12 @@ Filco keyboard
 
 - document it to allow reproduction on laptop
 
+  - include references to http://www.charvolant.org/~doug/xkb/html/xkb.html
+
 - it should be possible to work properly on the standard 105 keys too.
+
+
+- some keys are underused. You might want to assign them frequent keys
+  that require some combination (e.g. accented letters)
+
+  AE10: just maps to 0 and ~A
