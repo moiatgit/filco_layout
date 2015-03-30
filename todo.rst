@@ -35,3 +35,36 @@ Filco keyboard
 
   AE10: just maps to 0 and ~
   The same for AE11-13
+
+
+Another source
+--------------
+
+There's another source of information at: https://wiki.debian.org/Keyboard
+
+Some information obtained from here:
+
+- change keyboard settings with
+
+# dpkg-reconfigure console-data
+# dpkg-reconfigure keyboard-configuration
+# service keyboard-setup restart
+
+- if restarting service is not enough, you can restart kernel with
+
+# udevadm trigger --subsystem-match=input --action=change
+
+- the keyboard configuration file is etc/default/keyboard
+
+- you can change current keyboard with
+
+$ setxkbmap -rules evdev -model evdev -layout us -variant altgr-intl
+
+Another source
+--------------
+
+There's another source at https://www.linux.com/learn/tutorials/769644-hacking-your-linux-keyboard-with-xkb
+
+
+Curiously enougt you have to unplug/replug the keyboard to make the
+changes have effect!
