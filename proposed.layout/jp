@@ -270,7 +270,7 @@ xkb_symbols "jpcat" {
  key <AE01> { [ 1            , exclam          , bar                 , exclamdown      ] };
  key <AE02> { [ 2            , quotedbl        , at                                    ] };
  key <AE03> { [ 3            , periodcentered  , numbersign                            ] };
- key <AE04> { [ 4            , dollar          , asciitilde                            ] };
+ key <AE04> { [ 4            , dollar          , EuroSign                              ] };
  key <AE05> { [ 5            , percent         , onehalf                               ] };
  key <AE06> { [ 6            , ampersand       , notsign                               ] };
  key <AE07> { [ 7            , apostrophe                                              ] };
@@ -279,9 +279,9 @@ xkb_symbols "jpcat" {
  key <AE10> { [ 0            , asciitilde                                              ] };
  key <AE11> { [ minus        , equal                                                   ] };
  key <AE12> { [ asciicircum  , asciitilde                                              ] };
- key <AE13> { [ EuroSign     , bar                                                     ] };
+ key <AE13> { [ dead_grave   , dead_acute      ,  dead_diaeresis     , bar             ] };
 
- key <AD01> { [q             , Q                                                       ] };
+ key <AD01> { [q             , Q               , aacute              , Aacute          ] };
  key <AD02> { [w             , W               , dead_grave          , dead_circumflex ] };
  key <AD03> { [e             , E               , eacute              , Eacute          ] };
  key <AD04> { [r             , R                                                       ] };
@@ -296,13 +296,13 @@ xkb_symbols "jpcat" {
 
  key <AC01> { [ a            , A               , agrave              , Agrave          ] };
  key <AC02> { [ s            , S               , dead_acute          , dead_diaeresis  ] };
- key <AC03> { [ d            , D                                                       ] };
+ key <AC03> { [ d            , D               , egrave              , Egrave          ] };
  key <AC04> { [ f            , F                                                       ] };
  key <AC05> { [ g            , G                                                       ] };
  key <AC06> { [ h            , H                                                       ] };
  key <AC07> { [ j            , J                                                       ] };
  key <AC08> { [ k            , K                                                       ] };
- key <AC09> { [ l            , L                                                       ] };
+ key <AC09> { [ l            , L               , ograve              , Ograve          ] };
  key <AC10> { [ semicolon    , plus            , ntilde              , Ntilde          ] };
  key <AC11> { [ colon        , asterisk        , dead_acute          , dead_diaeresis  ] };
  key <AC12> { [ bracketright , braceright      , ccedilla            , Ccedilla        ] };
