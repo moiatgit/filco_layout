@@ -5,4 +5,4 @@ cp -v evdev.lst /usr/share/X11/xkb/rules
 cp -v base.lst /usr/share/X11/xkb/rules
 cp -v base.xml /usr/share/X11/xkb/rules
 cp -v evdev.xml /usr/share/X11/xkb/rules
-
+service keyboard-setup restart
