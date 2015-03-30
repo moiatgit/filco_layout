@@ -11,9 +11,15 @@ Filco keyboard
 
 - save original layouts from /usr/share/X11/xkb/symbols/
 
+  ok
+
 - get the map for the key numbers in the filco's layout
 
+  ok
+
 - add the following keys
+
+  ok
 
   * dead keys for accents open and close, and dieresis
 
