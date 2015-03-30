@@ -68,3 +68,13 @@ There's another source at https://www.linux.com/learn/tutorials/769644-hacking-y
 
 Curiously enougt you have to unplug/replug the keyboard to make the
 changes have effect!
+
+
+To remap special keys around spacebar you can use something like the
+following:
+
+$ xmodmap -e "keycode 102=Prior"
+
+En aquest cas, la comanda assigna pàgina enrere a la tecla
+immediata a la dreta de l'espai
+
