@@ -300,8 +300,8 @@ xkb_symbols "jpcat" {
  key <AC04> { [ f            , F                                                       ] };
  key <AC05> { [ g            , G                                                       ] };
  key <AC06> { [ h            , H                                                       ] };
- key <AC07> { [ j            , J                                                       ] };
- key <AC08> { [ k            , K                                                       ] };
+ key <AC07> { [ j            , J               , udiaeresis          , Udiaeresis      ] };
+ key <AC08> { [ k            , K               , idiaeresis          , Idiaeresis      ] };
  key <AC09> { [ l            , L               , ograve              , Ograve          ] };
  key <AC10> { [ semicolon    , plus            , ntilde              , Ntilde          ] };
  key <AC11> { [ colon        , asterisk        , dead_acute          , dead_diaeresis  ] };
