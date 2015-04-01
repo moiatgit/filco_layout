@@ -279,7 +279,7 @@ xkb_symbols "jpcat" {
  key <AE10> { [ 0            , asciitilde                                              ] };
  key <AE11> { [ minus        , equal                                                   ] };
  key <AE12> { [ asciicircum  , asciitilde                                              ] };
- key <AE13> { [ dead_grave   , dead_acute      ,  dead_diaeresis     , bar             ] };
+ key <AE13> { [ EuroSign     , bar                                                     ] };
 
  key <AD01> { [q             , Q               , aacute              , Aacute          ] };
  key <AD02> { [w             , W               , dead_grave          , dead_circumflex ] };
