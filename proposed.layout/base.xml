@@ -3475,7 +3475,6 @@
     <layout>
       <configItem>
         <name>kg</name>
-        
         <shortDescription>ki</shortDescription>
         <description>Kyrgyz</description>
         <languageList>
@@ -4361,6 +4360,15 @@
           <configItem>
             <name>cat</name>
             <description>Catalan (Spain, with middle-dot L)</description>
+            <languageList>
+              <iso639Id>cat</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>catfilco</name>
+            <description>Catalan (for Filco Keyboard)</description>
             <languageList>
               <iso639Id>cat</iso639Id>
             </languageList>

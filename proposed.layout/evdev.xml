@@ -1377,27 +1377,17 @@
     <layout>
       <configItem>
         <name>ad</name>
-        
         <shortDescription>ca</shortDescription>
         <description>Catalan</description>
         <languageList>
           <iso639Id>cat</iso639Id>
         </languageList>
       </configItem>
-      <variantList>
-	<variant>
-	  <configItem>
-	    <name>catdev</name>
-	    <description>Catalan for developers</description>
-	  </configItem>
-	</variant>
-      </variantList>
-
+      <variantList />
     </layout>
     <layout>
       <configItem>
         <name>af</name>
-        
         <shortDescription>fa</shortDescription>
         <description>Afghani</description>
       </configItem>
@@ -4369,6 +4359,15 @@
           <configItem>
             <name>cat</name>
             <description>Catalan (Spain, with middle-dot L)</description>
+            <languageList>
+              <iso639Id>cat</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>cat</name>
+            <description>Catalan (for Filco Keyboard)</description>
             <languageList>
               <iso639Id>cat</iso639Id>
             </languageList>

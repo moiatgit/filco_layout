@@ -263,7 +263,8 @@ xkb_symbols "hztg_escape" {
 partial alphanumeric_keys
 xkb_symbols "jpcat" {
 
-    include "jp(common)"
+    //include "jp(common)"
+    include "latin(type4)"
     name[Group1]="Japanese with Catalan symbols";
 
  key <TLDE> { [ masculine    , ordfeminine     , backslash           , backslash       ] };
